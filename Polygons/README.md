@@ -4,34 +4,27 @@
 Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
-
 ### Requirements
-* Linux
-* Python 3.3 and up
+*opengl (freeglut3)
+*g++ compiler (minGW)
 
-`$ pip install foobar`
+`$ sudo apt-get install g++`
+`$ sudo apt-get install freeglut3-dev`
 
 ## Usage
 
-```python
-import foobar
+You need only to download the Repository, open the terminal, compile the cpp file with this command:
+`g++ -std=c++11 c.cpp  -lGL -lGLU -lglut`
+then run it using:
+`./a.out`
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Idea
+The main idea is to use vector translation and rotation in order to draw polygons.
 
-## Development
-```
-$ virtualenv foobar
-$ . foobar/bin/activate
-$ pip install -e .
-```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## ScreenShots
 
-Please make sure to update tests as appropriate.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
