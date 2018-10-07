@@ -4,6 +4,7 @@
 * g++ compiler (minGW)
 
 `$ sudo apt-get install g++`
+
 `$ sudo apt-get install freeglut3-dev`
 
 ## Usage
@@ -21,8 +22,7 @@ The main idea is to use vector translation and rotation in order to draw polygon
 
 
 ## ScreenShots
-
-
+![](output_ji2Msh.gif)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
