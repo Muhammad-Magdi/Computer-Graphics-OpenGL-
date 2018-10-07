@@ -1,12 +1,7 @@
-
-# Foobar ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-
-Foobar is a Python library for dealing with word pluralization.
-
 ## Installation
 ### Requirements
-*opengl (freeglut3)
-*g++ compiler (minGW)
+* opengl (freeglut3)
+* g++ compiler (minGW)
 
 `$ sudo apt-get install g++`
 `$ sudo apt-get install freeglut3-dev`
@@ -14,8 +9,11 @@ Foobar is a Python library for dealing with word pluralization.
 ## Usage
 
 You need only to download the Repository, open the terminal, compile the cpp file with this command:
+
 `g++ -std=c++11 c.cpp  -lGL -lGLU -lglut`
+
 then run it using:
+
 `./a.out`
 
 ## Idea
