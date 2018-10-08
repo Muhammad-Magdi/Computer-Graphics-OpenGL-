@@ -11,7 +11,7 @@
 
 You need only to download the Repository, open the terminal, compile the cpp file with this command:
 
-`g++ -std=c++11 c.cpp  -lGL -lGLU -lglut`
+`g++ -std=c++11 fileName.cpp  -lGL -lGLU -lglut`
 
 then run it using:
 
