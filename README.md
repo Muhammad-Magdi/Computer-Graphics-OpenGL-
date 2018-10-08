@@ -23,7 +23,7 @@ The main idea is to use vector translation and rotation in order to draw polygon
 
 ## ScreenShots
 ### Polygons
-![](output_ji2Msh.gif)
+![](Polygons/output_ji2Msh.gif)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
